@@ -1,21 +1,18 @@
 {
-  "name": "duplo-infinito",
+  "name": "next-landing-page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "13.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.55.0"
+    "bootstrap": "^4.6.0",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "reactstrap": "^8.9.0"
   },
-  "devDependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0"
-  }
+  "devDependencies": {}
 }
